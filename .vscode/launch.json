@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "RefCard01 starten (localhost:8080)",
+      "request": "launch",
+      "mainClass": "ch.bbw.architecturerefcard01.ArchitectureRefCard01Application",
+      "projectName": "app-refcard-01"
+    }
+  ]
+}

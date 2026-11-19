@@ -58,6 +58,12 @@
                     </excludes>
                 </configuration>
             </plugin>
+            <!-- Unit-Tests (*Test.java) laufen mit Surefire in "mvn test",
+                 Integrationstests (*IT.java) mit Failsafe in "mvn verify" -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+            </plugin>
         </plugins>
     </build>
 
